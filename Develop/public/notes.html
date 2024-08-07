@@ -6,4 +6,21 @@
         <title>Notes</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
+    <body>
+        <div class="container">
+            <div class="notes-sidebar">
+                <ul id="notes-list"></ul>
+            </div>
+            <div class="notes-content">
+                <input type="text" id="note-title" placeholder="Note Title">
+                <textarea id="note-text" placeholder="Note Text"></textarea>
+            </div>
+        </div>
+        <div class="nav">
+            <button id ="save-note" class="btn hidden">Save Note</button>
+            <button id="clear-form" class="btn hidden">Clear Form</button>
+            <button id="new-note" class="btn hidden">New Note</button>
+        </div>
+        <script src="js/notes.js"></script>
+    </body>
 </html>
